@@ -184,7 +184,6 @@ const App = () => {
       >
         <div className="relative z-10 w-[80vw] h-[80vh] max-w-8xl bg-white bg-opacity-80 shadow-lg overflow-y-auto p-8 md:p-12">
           <div className="h-full flex flex-col justify-center">
-          
             <h1 className="text-5xl font-bold text-gray-800 mb-8 text-left">About</h1>
             
             <div className="space-y-6 text-gray-700 text-lg leading-relaxed text-justify">
@@ -210,13 +209,13 @@ const App = () => {
       </section>
 
       <section id="contact" className="w-full py-16 bg-white">
-        <div className='flex justify-center'>
-          <div className='flex-1'>
+        <div className= "relative z-10 max-w-8xl flex">
+          <div className='flex-1 ml-45'>
             <img 
               src={LogoandName}  
               alt="Company Logo"
               className="h-full object-contain ml-10"
-              style={{ width: '800px' }}
+              style={{ width: '280px' }}
             />
           </div>
           <div className='flex-1'>
