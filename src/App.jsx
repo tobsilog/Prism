@@ -209,23 +209,18 @@ const App = () => {
       </section>
 
       <section id="contact" className="w-full py-16 bg-white">
-        <div className= "relative z-10 max-w-8xl flex">
-          <div className='flex-1 ml-45'>
+        <ContactForm />
+          <div className='ml-45 flex'>
             <img 
               src={LogoandName}  
               alt="Company Logo"
               className="h-full object-contain ml-10"
               style={{ width: '280px' }}
             />
-          </div>
-          <div className='flex-1'>
-            <div className="container mx-auto px-4">
-            <ContactForm />
-            <ContactIcons />
+            <div className='ml-108'>
+              <ContactIcons />
             </div>
           </div>
-        </div>
-        
       </section>
     </div>
   );
