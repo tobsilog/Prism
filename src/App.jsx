@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './App.css';
 import prismImage from './assets/Prism.jpg';
 import img1 from './assets/img1.png';
 import img2 from './assets/img2.png';
@@ -42,7 +41,6 @@ const App = () => {
   const ContactIcons = () => {
     return (
       <div className="flex gap-6 justify-center mt-8">
-        {/* Facebook Icon */}
         <a 
           href="https://www.facebook.com/profile.php?id=61574456371379#https://www.facebook.com/profile.php?id=61574456371379#" 
           target="_blank" 
@@ -52,8 +50,6 @@ const App = () => {
         >
           <Facebook size={24} />
         </a>
-  
-        {/* Phone Icon */}
         <a 
           href="tel:0998 594 9539" 
           className="text-green-600 hover:text-green-800 transition-colors"
@@ -61,8 +57,6 @@ const App = () => {
         >
           <Phone size={24} />
         </a>
-  
-        {/* Email Icon */}
         <a 
           href="mailto:contactus@newprismsys.com" 
           className="text-red-600 hover:text-red-800 transition-colors"
@@ -74,7 +68,6 @@ const App = () => {
     );
   };
   
-
   return (
     <div className="w-full relative">
       <nav className="fixed top-0 left-0 w-full bg-white shadow-lg z-20 h-20">
